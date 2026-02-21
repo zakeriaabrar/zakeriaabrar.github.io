@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zakeria Abrar | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS File Link -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,86 +29,119 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <img src="Profile.jpeg" alt="Zakeria Abrar" class="profile-pic">
-      <h1>Hello, I'm Zakeria Abrar</h1>
-      <p>3rd Year CSE Student | Web Developer | Programmer</p>
-      <a href="#education" class="btn">View My Educational Background</a>
-    </div>
-  </section>
+  <header>
+    <img src="Profile.jpeg" class="profile-img" alt="Zakeria Abrar">
+    <h1>Hello, I'm <span>Zakeria Abrar</span></h1>
+    <p>3rd Year CSE Student | Web Developer | Programmer<br>
+       I have learnt C, C++, Java. Now learning Python, HTML, and CSS.
+    </p>
+    <a href="#education" class="btn">View My Educational Background</a>
+  </header>
 
-  <!-- About Me -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I have already learnt C, C++, Java. Currently learning Python, web development, and building creative projects using HTML and CSS. I enjoy problem-solving and creating visually appealing websites with clean code.</p>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>My Skills</h2>
-      <div class="skills-grid">
-        <div class="skill">C</div>
-        <div class="skill">C++</div>
-        <div class="skill">Java</div>
-        <div class="skill">Python</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>I have already learnt C, C++, and Java. Currently learning Python, web development, and building creative projects using HTML and CSS. I enjoy problem-solving and creating visually appealing websites with clean code.</p>
+      </div>
+      <div class="about-img">
+        <img src="about.png" alt="About Me">
       </div>
     </div>
   </section>
 
+  <!-- Skills -->
+  <section id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills">
+      <div class="skill-box">C</div>
+      <div class="skill-box">C++</div>
+      <div class="skill-box">Java</div>
+      <div class="skill-box">Python</div>
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+    </div>
+  </section>
+
   <!-- Projects -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>My Projects</h2>
-      <div class="projects-grid">
-        <div class="project">
-          <h3>Digital Logic Design</h3>
-          <p>First major project exploring digital circuits and logic gates.</p>
-          <a href="#">View Project</a>
-        </div>
-        <div class="project">
-          <h3>Database Management System</h3>
-          <p>Built a DBMS project for managing student records and queries.</p>
-          <a href="#">View Project</a>
-        </div>
+  <section id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Digital Logic Design</h3>
+        <p>First major project exploring digital circuits and logic gates.</p>
+        <a href="dld.pdf" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Database Management System</h3>
+        <p>Built a DBMS project for managing student records and queries.</p>
+        <a href="https://docs.google.com/document/d/1fA-yueHjmOHvwGGtvftopDVcVgZijMdJcrcz7PDKcbo/edit?tab=t.0" target="_blank">View Project</a>
       </div>
     </div>
   </section>
 
   <!-- Education -->
-  <section id="education" class="section">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="edu-item"><strong>2024-Present:</strong> University of Asia Pacific, CSE Department.</div>
-      <div class="edu-item"><strong>2020-2021:</strong> Govt. Bangabandhu College, Khulna. HSC GPA: 5.00</div>
-      <div class="edu-item"><strong>2018-2019:</strong> St. Josephs High School, Khulna. SSC GPA: 5.00</div>
-      <div class="edu-item"><strong>2017:</strong> Passed JSC with GPA 5.00</div>
-      <div class="edu-item"><strong>2012-2014:</strong> Admitted to St. Josephs High School, participated in PSC in 2014.</div>
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>2024-Present</h3>
+        <p>University of Asia Pacific, CSE Department. Already completed 2 years.</p>
+      </div>
+      <div class="project-card">
+        <h3>2020-2021</h3>
+        <p>HSC from Govt. Bangabandhu College, Khulna. GPA: 5.00</p>
+      </div>
+      <div class="project-card">
+        <h3>2018-2019</h3>
+        <p>SSC from St. Josephs High School, Khulna. GPA: 5.00</p>
+      </div>
+      <div class="project-card">
+        <h3>2017</h3>
+        <p>JSC passed with GPA 5.00, selected for Science group.</p>
+      </div>
+      <div class="project-card">
+        <h3>2012-2014</h3>
+        <p>Admitted to St. Josephs High School, participated in PSC in 2014.</p>
+      </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Get In Touch</h2>
-      <p>I'm currently looking for internships. Feel free to contact me!</p>
-
-      <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Write your message here..." required></textarea>
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <!-- Contact Form Left -->
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Write your message here..." rows="6" required></textarea>
         <button type="submit">Send Message</button>
       </form>
 
+      <!-- Contact Info Right -->
       <div class="contact-info">
-        <p><strong>Phone:</strong> +8801783714164</p>
-        <p><strong>Email:</strong> hasanulmobin1@gmail.com</p>
-        <p><strong>Location:</strong> Dhaka, Bangladesh</p>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>+8801783714164</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>hasanulmobin1@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h3>Location</h3>
+            <p>Dhaka, Bangladesh</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
